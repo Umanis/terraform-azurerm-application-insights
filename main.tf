@@ -20,7 +20,7 @@ resource "azurecaf_name" "self" {
   suffixes      = []
   use_slug      = true
   clean_input   = true
-  separator     = "-"
+  separator     = var.name_separator
 }
 
 resource "azurerm_application_insights" "self" {

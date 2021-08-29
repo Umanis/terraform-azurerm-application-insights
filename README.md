@@ -88,6 +88,7 @@ module "umanis_application_insights" {
 | <a name="input_daily_data_cap_in_gb"></a> [daily\_data\_cap\_in\_gb](#input\_daily\_data\_cap\_in\_gb) | Daily data volume cap in GB. | `number` | `1` | no |
 | <a name="input_daily_data_cap_notifications_disabled"></a> [daily\_data\_cap\_notifications\_disabled](#input\_daily\_data\_cap\_notifications\_disabled) | Whether to disable cap notifications to the subscription admin. | `bool` | `true` | no |
 | <a name="input_description"></a> [description](#input\_description) | The resource description. | `string` | `""` | no |
+| <a name="input_name_separator"></a> [name\_separator](#input\_name\_separator) | Name separator | `string` | `"-"` | no |
 | <a name="input_sampling_percentage"></a> [sampling\_percentage](#input\_sampling\_percentage) | Specifies the percentage of the data produced by the monitored application that is sampled for Application Insights telemetry. | `number` | `100` | no |
 
 ## Outputs
